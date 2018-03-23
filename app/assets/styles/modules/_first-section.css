@@ -1,0 +1,11 @@
+.first-section {
+    position: relative;
+
+    &__image {
+        display: block;
+        filter: grayscale(45%);
+     }
+
+
+
+}

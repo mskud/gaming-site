@@ -1,0 +1,23 @@
+.site-header {
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    transition: background-color .3s ease-out;
+
+
+    @mixin atMedium {
+        background-color: rgba($mainBlue, 0.3);
+        border-bottom: 4px solid rgba(20, 68, 132, 0.04);
+    }
+
+    &__content {
+        position: relative;
+     }
+
+    &__btn-container {
+        @mixin atMedium {
+            float: right;
+        }
+     }     
+}
